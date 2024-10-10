@@ -1,4 +1,4 @@
 export const environment = {
-    production: true,
-    CONTEXT_PATH: 'http://localhost:4200/api'
+    production: false,
+    CONTEXT_PATH: '/server-api/spring-rabbit-producer',
 };
