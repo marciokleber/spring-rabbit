@@ -1,0 +1,12 @@
+server:
+    port: 8080
+    servlet:
+        context-path: /spring-rabbit-producer
+spring:
+    application:
+        name: spring-rabbit-producer
+    rabbitmq:
+        host: ${SPRING_RABBBITMQ_HOST:localhost}
+        port: ${SPRING_RABBBITMQ_PORT:5672}
+        username: ${SPRING_RABBBITMQ_USERNAME:rabbit}
+        password: ${SPRING_RABBBITMQ_PASSWORD:rabbit}
