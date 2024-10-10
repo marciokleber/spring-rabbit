@@ -18,7 +18,6 @@ export class AppComponent {
     }
 
     private URL_API = `${environment.CONTEXT_PATH}/message/send`;
-    private URL_API1 = `http://localhost:8080/spring-rabbit-producer/message/send`;
     selectedColor: string = '#000000';
 
     submit() {
